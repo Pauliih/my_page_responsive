@@ -11,82 +11,81 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="">   
+  <header>   
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 bootstrap">
         <h2 class="txt-title">Start Bootstrap</h1>
       </div>
-      <div class="col-6">
+      <div class="col-6 no-hamburguer">
         <nav class="menu">
           <ul class="list-header">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Services</li></a>
-            <a href="#"><li>Contact</li></a>
+            <a href="#init"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#services"><li>Services</li></a>
+            <a href="#contact"><li>Contact</li></a>
           </ul>        
         </nav>
       </div>
+      <div class="col-6 hamburger">
+        <label class="fa fa-bars" for="menu-bar"></label>
+      </div>
     </div>
   </header>
-
-  <div class="container">
+ 
   <section id="init">
     <div class="row">
       <div class="col-12 init">
-        <h2 class="h2">My Page Wonder</h2>
-        <h3 class="h3">Get in or Get out!</h3>
+      <!-- Aquí va la imagen -->
+      <h1 class="h1">Life In Colors</h1>
       </div>
     </div>
   </section>
-  
+
+  <div class="container">
   <section id="about">
     <div class="row">
       <div class="col-9">
         <h2>What We Do</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime pariatur excepturi. Nulla, voluptates quo similique, placeat dignissimos vitae nobis sit, eius perspiciatis cupiditate quae unde suscipit dolorem obcaecati vero.</p>
-        <input type="button" value="Call To Action >>">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime pariatur excepturi. Nulla, voluptates quo similique, placeat dignissimos vitae nobis sit, eius perspiciatis cupiditate quae unde suscipit dolorem obcaecati vero. <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quidem cumque consequatur! Ea at sed iste, voluptatem eligendi et saepe. Alias aliquid dolorem, beatae doloribus vel animi minus officia quasi.</p>
+        <input class="buttons" type="button" value="Call To Action >>">
       </div>
-      <div class="col-3 contact">
+      <div class="col-3" id="contact">
         <div class="col-12">
           <h2>Contact Us</h2>
         </div>
         <div class="col-12">
           <h4>Start Bootstrap</h4>
           <p>3481 Melrose Place <br>Beverly Hills, CA 90210.</p>
+          <p>P: (123) 456-7890 <br> E: <a href="#">name@email.com</a></p>
         </div>
       </div>
     </div>
   </section>
-  <section id="images">
+  <section id="services">
     <div class="row">
-      <div class="col-4">
-        <div class="col-12">
-          <img class="image" src="" alt="">
-        </div>
-        <div class="col-12 txt-img">
+      <div class="col-4 cards">
+        <div class="border">
+          <img class="image" src="assets/img/20170809153941-colores.jpeg" alt="">
           <h3>Card Title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>
-          <input type="button" value="Find Out More!">
+          <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>  <hr>     
+          <input class="buttons" type="button" value="Find Out More!">
         </div>
       </div>
-      <div class="col-4">
-        <div class="col-12">
-          <img class="image" src="" alt="">
-        </div>
-        <div class="col-12 txt-img">
+      <div class="col-4 cards">
+        <div class="border">
+          <img class="image" src="assets/img/colores-300x200.jpg" alt="">
           <h3>Card Title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>
-          <input type="button" value="Find Out More!">
+          <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>   <hr>     
+          <input class="buttons" type="button" value="Find Out More!">
         </div>
       </div>
-      <div class="col-4">
-        <div class="col-12">
-          <img class="image" src="" alt="">
-        </div>
-        <div class="col-12 txt-img">
+     <div class="col-4 cards">
+        <div class="border">
+          <img class="image" src="assets/img/psicologu00c3u00ada-del-color-utilice-los-colores-para-aumentar-sus-ventas-online-y-offline.jpg" alt="">
           <h3>Card Title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>
-          <input type="button" value="Find Out More!">
+          <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis omnis vitae, deserunt iste voluptate recusandae natus maxime, libero nobis cum consequuntur, iusto eum iure aut animi doloribus dicta expedita.</p>    <hr>    
+          <input class="buttons" type="button" value="Find Out More!">
         </div>
       </div>
     </div>

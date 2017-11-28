@@ -6,12 +6,11 @@ header{
   background-color: #343A40FF;
   color: white;
   padding: 0 8%;
-  height: 55px;
   width: 100%;
   text-align: right;
+
+  position: fixed;
 }
-
-
 
 .txt-title{
   text-align: left;
@@ -41,50 +40,87 @@ li{
   color: white;
 }
 
+.hamburger{
+  display: none;
+}
 /* _____________________________________________________________________ */
 
 .init{
-  background: url(../img/);
-  color: white;
-  text-align: center;
-  padding: 10%;
+  background-image: url(../img/cat-header-trending_1920x716.jpg);
   height: 400px;
-  /* opacity: 0.8;
-  background: rgba(1,1,0,0.5); */
+  padding-top:10%;
+}
+
+h1{
+  color: white;
+  font-size: 6em;
+  background-color: rgba(0,0,0,0.5);
 }
 
 #about{
   text-align: left;
+  padding: 3% 0;
+}
+#about p{
+  padding: 3% 0;
 }
 
 .txt-img{
   text-align: left;
 }
-.h2{
-  font-size: 4.5em;
-  padding-top: 5%; 
-}
-
-.h3{
-  font-size: 3em;
-}
 
 /* _____________________________________________________________________ */
 
+#services{
+  padding: 5% 0;
+}
+
+.buttons{
+  background-color: #007BFFFF;
+  border-radius: 4px;
+  color:white;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 14px;
+  margin: 2%;
+}
+
+.border{
+  border: 1px solid grey;
+  border-radius: 2%;
+}
+
+.cards{
+text-align: left;
+}
+
+.cards img{
+  border-top-right-radius: 2%;
+  border-top-left-radius: 2%;
+}
+
+.cards h3, .cards p{
+  margin-left: 3%; 
+  padding: 2%;
+}
+
+.picture{
+  padding: 0;
+  margin: 0;
+}
+
 .image{
   width: 100%;
-  border-radius: 50%;
 }
-
-#images, #let-rock{
-  padding: 8%;
-}
-
 
 /* _____________________________________________________________________ */
 
 footer{
   background-color: #343A40FF;
   color: white;
-  height: 55px;
+}
+
+footer p{
+  padding: 2% 0;
 }

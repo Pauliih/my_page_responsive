@@ -1,0 +1,90 @@
+body{
+  text-align: center;
+}
+
+header{
+  background-color: #343A40FF;
+  color: white;
+  padding: 0 8%;
+  height: 55px;
+  width: 100%;
+  text-align: right;
+}
+
+
+
+.txt-title{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none; /*saca las viñetas de la lista */
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+li{
+  text-align: right;
+  display: inline-block;
+}
+
+.menu a{
+  text-decoration: none;/*sacar la linea del link*/
+  color: #95989BFF;
+  padding: 2%;
+}
+
+.menu a:hover{
+  color: white;
+}
+
+/* _____________________________________________________________________ */
+
+.init{
+  background: url(../img/);
+  color: white;
+  text-align: center;
+  padding: 10%;
+  height: 400px;
+  /* opacity: 0.8;
+  background: rgba(1,1,0,0.5); */
+}
+
+#about{
+  text-align: left;
+}
+
+.txt-img{
+  text-align: left;
+}
+.h2{
+  font-size: 4.5em;
+  padding-top: 5%; 
+}
+
+.h3{
+  font-size: 3em;
+}
+
+/* _____________________________________________________________________ */
+
+.image{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#images, #let-rock{
+  padding: 8%;
+}
+
+
+/* _____________________________________________________________________ */
+
+footer{
+  background-color: #343A40FF;
+  color: white;
+  height: 55px;
+}

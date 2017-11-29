@@ -1,23 +1,25 @@
 @media (min-width: 200px) and (max-width: 534px){
-  [class*="col-"]{ /* para que las col ocupen el 100% del ancho y se agrupan hacia abajo */
+  [class*="col-"]{ /* para que las col ocupen el 100% del ancho y se agrupen hacia abajo */
     width: 100%;
   }
+
+  /* Quito la columna que lleva el menu horizontal */
 	.no-hamburguer{
 		display: none;
 	}
 
   .hamburger{
-    display: block;
+    display: block; /* Muestro la columna que lleva el menu hamburguesa */
     text-align: right;
     padding: 0;
     width: 50%!important;
     margin: -0.3px;
   }
 
- header label{
+  header label{
   text-align: right;
-  cursor: pointer;
-}
+  cursor: pointer; /* Hace que aparezca la manito cuando paso el cursor sobre la etiqueta que lleva al menu */
+  }
 
   .txt-title{
     text-align: left;
